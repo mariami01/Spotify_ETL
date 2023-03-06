@@ -26,6 +26,27 @@ There are some basic validations, one that indicates if the DataFrame is empty, 
 ## Airflow
 I just built a simple DAG to understand how Airflow works, it would run automatically every day, executing the ETL code.
 
+## Local setup
+NOTE: project is setup for python 3.9 so It should work fine for 3.9+ versions. If you have any issues with the setup, consider updating your python version.
+```sh
+# clone the repo
+git clone https://github.com/Cine-Pixel/django-ecommerce.git](https://github.com/mariami01/Spotify_ETL
+
+# create virtual environment for airflow
+source airflow-venev/bin/activate # for linux and mac
+
+# create virtual environment with venv or your preffered tool and activate
+python -m venv venv
+source venv/bin/activate # for linux and mac
+
+# run airflow server
+airflow webserver -p 8080
+
+# run airflow scheduler
+airflow scheduler
+```
+
+
 ## About me
 Freshly graduated in Computer Science, and passionate about Artificial Intelligence and Data, I am looking for an opportunity to gain experience with Data Science, Machine Learning and Data Engineering.
 * [LinkedIn](https://www.linkedin.com/in/zenaishvilimariam/)
