@@ -30,7 +30,7 @@ I just built a simple DAG to understand how Airflow works, it would run automati
 NOTE: project is setup for python 3.9 so It should work fine for 3.9+ versions. If you have any issues with the setup, consider updating your python version.
 ```sh
 # clone the repo
-git clone https://github.com/Cine-Pixel/django-ecommerce.git](https://github.com/mariami01/Spotify_ETL
+git clone https://github.com/mariami01/Spotify_ETL
 
 # create virtual environment for airflow
 source airflow-venev/bin/activate # for linux and mac
